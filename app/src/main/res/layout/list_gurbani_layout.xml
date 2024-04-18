@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?mcolorPrimary">
+
+    <TextView
+        android:layout_alignParentTop="true"
+        android:id="@+id/sundarGutkaHeadingText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="gurbwxI"
+        android:fontFamily="@font/gurbaniakhar"
+        android:textSize="19dp"
+        android:gravity="center_horizontal"
+        android:breakStrategy="simple"
+        android:textColor="?mchoiceButtonTextColor"
+        android:padding="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/sundargutkaheadingbackground" />
+
+    <TextView
+        android:layout_alignParentTop="true"
+        android:id="@+id/sundarGutkaBaniText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="gurbwxI"
+        android:fontFamily="@font/gurbaniakhar"
+        android:textSize="19dp"
+        android:gravity="left"
+        android:breakStrategy="simple"
+        android:textColor="?mtextColor"
+        android:padding="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/sundargutkagurbanibackground" />
+
+
+</RelativeLayout>

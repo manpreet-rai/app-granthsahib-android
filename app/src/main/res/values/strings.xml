@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Granth Sahib</string>
+
+    <string name="sharedPrefs">sharedPrefs</string>
+    <string name="lastAng">lastAng</string>
+    <string name="savedBani">savedBani</string>
+    <string name="savedSource">savedSource</string>
+    <string name="savedAng">savedAng</string>
+    <string name="savedShabadID">savedShabadID</string>
+    <string name="savedUniqueID">savedUniqueID</string>
+    <string name="sourceComplete">sourceComplete</string>
+    <string name="lastAngPosition">lastAngPosition</string>
+    <string name="defaultFontSize">defaultFontSize</string>
+    <string name="fontSize">fontSize</string>
+    <string name="restoreSettings">restoreSettings</string>
+
+    <string name="hukamnamaFontSize">hukamnamaFontSize</string>
+    <string name="archiveFontSize">archiveFontSize</string>
+    <string name="angFontSize">angFontSize</string>
+    <string name="shabadFontSize">shabadFontSize</string>
+    <string name="sundarGutkaFontSize">sundarGutkaFontSize</string>
+    <string name="slimFont">slimFont</string>
+    <string name="regularFont">regularFont</string>
+    <string name="mediumFont">mediumFont</string>
+    <string name="boldFont">boldFont</string>
+
+    <string name="sundarGutkaLastBani">sundarGutkaLastBani</string>
+    <string name="sundarGutkaLastPosition">sundarGutkaLastPosition</string>
+    <string name="sundarGutkaLastBaniIndex">sundarGutkaLastBaniIndex</string>
+
+    <string name="hukamnamaViakhiaVisibility">hukamnamaViakhiaVisibility</string>
+    <string name="archiveViakhiaVisibility">archiveViakhiaVisibility</string>
+
+    <string name="hukamnamaEnglishVisibility">hukamnamaEnglishVisibility</string>
+    <string name="archiveEnglishVisibility">archiveEnglishVisibility</string>
+
+    <string name="angShowTransliteration">angShowTransliteration</string>
+    <string name="angShowEnglish">angShowEnglish</string>
+    <string name="angShowShabadArth">angShowShabadArth</string>
+    <string name="angShowBhavArth">angShowBhavArth</string>
+
+    <string name="shabadShowTransliteration">shabadShowTransliteration</string>
+    <string name="shabadShowEnglish">shabadShowEnglish</string>
+    <string name="shabadShowShabadArth">shabadShowShabadArth</string>
+    <string name="shabadShowBhavArth">shabadShowBhavArth</string>
+
+    <string name="kirtanMode">kirtanMode</string>
+
+    <string name="mode">mode</string>
+    <string name="currentOnlineHukamHeading">currentOnlineHukamHeading</string>
+    <string name="currentOnlineHukamContent">currentOnlineHukamContent</string>
+    <string name="currentOnlineHukamViakhiaContent">currentOnlineHukamViakhiaContent</string>
+    <string name="currentOnlineHukamHeadingEnglish">currentOnlineHukamHeadingEnglish</string>
+    <string name="currentOnlineHukamContentEnglish">currentOnlineHukamContentEnglish</string>
+    <string name="currentOnlineHukamAng">currentOnlineHukamAng</string>
+    <string name="lastUpdatedOnlineHukam">lastUpdatedOnlineHukam</string>
+
+    <string name="randomShabadHeading">randomShabadHeading</string>
+    <string name="randomShabadContent">randomShabadContent</string>
+    <string name="randomShabadViakhiaHeading">randomShabadViakhiaHeading</string>
+    <string name="randomShabadViakhiaContent">randomShabadViakhiaContent</string>
+    <string name="randomShabadHeadingEnglish">randomShabadHeadingEnglish</string>
+    <string name="randomShabadContentEnglish">randomShabadContentEnglish</string>
+    <string name="randomShabadAng">randomShabadAng</string>
+    <string name="randomShabadID">randomShabadID</string>
+    <string name="randomShabadDate">randomShabadDate</string>
+
+    <string name="bookmarkAng">bookmarkAng</string>
+    <string name="bookmarkAngCursorPosition">bookmarkAngCursorPosition</string>
+
+    <string name="quicklistMode">quicklistMode</string>
+    <string name="quickListArray">quickListArray</string>
+    <string name="emptyQuickListMessage">Quick List is Empty\n\n\To add Banis into Quick List\nHold Bani name in \'All Banis\' List\nChoose \'Add to Quick List\'</string>
+    <string name="englishSearchUsageMessage">Use \'Chat\' style Punjabi-English text\n\n\For Example\nKoi aan milaavai mera pritam pyaara\n\nAt least 4 words are required\nMore Words = Better Results</string>
+</resources>

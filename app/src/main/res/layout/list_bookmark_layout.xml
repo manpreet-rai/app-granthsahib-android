@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cellView"
+    android:animateLayoutChanges="true">
+    <TextView
+        android:id="@+id/banitxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="myn stirMg"
+        android:fontFamily="@font/gurbaniakharheavy"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="?mtextColor"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="8dp"/>
+    <View
+        android:id="@+id/border"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?mcolorPrimaryDark"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/banitxt">
+
+    </View>
+</RelativeLayout>

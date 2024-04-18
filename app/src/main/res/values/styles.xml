@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="mcolorPrimary">@color/white</item>
+        <item name="mcolorPrimaryDark">@color/lightGray</item>
+        <item name="mcolorAccent">@color/red</item>
+        <item name="mcolorAccentDark">@color/darkRed</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="mkeyboardText">@color/lighterBlack</item>
+        <item name="mkeyboardTextDark">@color/lightBlack</item>
+        <item name="mtextColor">@color/almostBlack</item>
+
+        <item name="mbuttonForegroundUnselected">@color/lightForegroundActiveUnselect</item>
+        <item name="mbuttonForegroundSelected">@color/lightForegroundActiveSelect</item>
+        <item name="mbuttonBackgroundUnselected">@color/lightForegroundInactiveUnselect</item>
+        <item name="mbuttonBackgroundSelected">@color/lightForegroundInactiveSelect</item>
+        <item name="mchoiceButtonTextColor">@color/choiceButtonColorLight</item>
+        <item name="msearchBoxStroke">@color/strokeLight</item>
+        <item name="mtintColor">@color/tintLight</item>
+
+        <item name="colorControlNormal">@color/red</item>
+        <item name="android:textColorPrimary">@color/almostBlack</item>
+        <item name="mshabadBackground">@color/lightShabadBackground</item>
+
+        <item name="mkeyboardBtnBackgroundHighlighted">@color/mkeyboardBtnBackgroundNormal</item>
+
+        <item name="mshabadArthTextColor">@color/shabadArthColorLight</item>
+        <item name="mdoneButtonColor">@color/doneButtonColorLight</item>
+
+        <item name="msearchedShabadBackgroundColor">@color/searchBackgroundLight</item>
+
+        <item name="msplashScreenColor">@color/splashDay</item>
+
+        <item name="android:progressTint">@color/darkRed</item>
+        <item name="android:progressBackgroundTint">@color/searchBackgroundLight</item>
+        <item name="colorControlActivated">@color/red</item>
+    </style>
+
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/darkIndigo</item>
+        <item name="mcolorPrimary">@color/darkIndigo</item>
+        <item name="mcolorPrimaryDark">@color/indigo</item>
+        <item name="mcolorAccent">@color/navyBlue</item>
+        <item name="mcolorAccentDark">@color/sameIndigo</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/indigo</item>
+        <item name="mkeyboardText">@color/whiteForDark</item>
+        <item name="mkeyboardTextDark">@color/lightGrayForDark</item>
+        <item name="mtextColor">@color/whiteAsText</item>
+
+        <item name="mbuttonForegroundUnselected">@color/darkForegroundActiveUnselect</item>
+        <item name="mbuttonForegroundSelected">@color/darkForegroundActiveSelect</item>
+        <item name="mbuttonBackgroundUnselected">@color/darkForegroundInactiveUnselect</item>
+        <item name="mbuttonBackgroundSelected">@color/darkForegroundInactiveSelect</item>
+        <item name="mchoiceButtonTextColor">@color/choiceButtonColorDark</item>
+        <item name="msearchBoxStroke">@color/strokeDark</item>
+
+        <item name="mtintColor">@color/tintDark</item>
+
+        <item name="colorControlNormal">@color/navyBlue</item>
+        <item name="android:textColorPrimary">@color/whiteAsText</item>
+        <item name="mshabadBackground">@color/darkShabadBackground</item>
+        <item name="mkeyboardBtnBackgroundHighlighted">@color/darkForegroundActiveUnselect</item>
+
+        <item name="mshabadArthTextColor">@color/shabadArthColorDark</item>
+        <item name="mdoneButtonColor">@color/doneButtonColorDark</item>
+
+        <item name="msearchedShabadBackgroundColor">@color/searchBackgroundDark</item>
+
+        <item name="msplashScreenColor">@color/splashNight</item>
+
+        <item name="android:progressTint">@color/tintDark</item>
+        <item name="android:progressBackgroundTint">@color/whiteAsText</item>
+        <item name="colorControlActivated">@color/navyBlue</item>
+    </style>
+
+    <style name="NumberPickerText">
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <style name="redSeekBar" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressTint">@color/redProgressTint</item>
+        <item name="android:progressBackgroundTint">@color/redProgressBackgroundTint</item>
+        <item name="colorControlActivated">@color/redColorControlActivated</item>
+    </style>
+
+    <style name="greenSeekBar" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressTint">@color/greenProgressTint</item>
+        <item name="android:progressBackgroundTint">@color/greenProgressBackgroundTint</item>
+        <item name="colorControlActivated">@color/greenColorControlActivated</item>
+    </style>
+
+    <style name="blueSeekBar" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressTint">@color/blueProgressTint</item>
+        <item name="android:progressBackgroundTint">@color/blueProgressBackgroundTint</item>
+        <item name="colorControlActivated">@color/blueColorControlActivated</item>
+    </style>
+
+</resources>

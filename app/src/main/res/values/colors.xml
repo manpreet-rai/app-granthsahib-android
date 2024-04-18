@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="lightGray">#EFEFEF</color>
+    <color name="red">#C02F1D</color>
+    <color name="darkRed">#972617</color>
+    <color name="lighterBlack">#8E8E8E</color>
+    <color name="lightBlack">#6F6F6F</color>
+    <color name="almostBlack">#333333</color>
+
+    <color name="indigo">#1D2733</color>
+    <color name="darkIndigo">#151E27</color>
+    <color name="navyBlue">#6a88a9</color>
+    <color name="sameIndigo">#1D2733</color>
+    <color name="whiteForDark">#C7D2DF</color>
+    <color name="lightGrayForDark">#EFEFEF</color>
+    <color name="whiteAsText">#C7D2DF</color>
+
+
+    <color name="lightForegroundInactiveUnselect">#8E8E8E</color>
+    <color name="lightForegroundInactiveSelect">#6F6F6F</color>
+    <color name="lightForegroundActiveUnselect">#C02F1D</color>
+    <color name="lightForegroundActiveSelect">#972617</color>
+
+
+    <color name="darkForegroundInactiveUnselect">#1D2733</color>
+    <color name="darkForegroundInactiveSelect">#314057</color>
+    <color name="darkForegroundActiveUnselect">#456A94</color>
+    <color name="darkForegroundActiveSelect">#32516D</color>
+
+    <color name="choiceButtonColorLight">#EFEFEF</color>
+    <color name="choiceButtonColorDark">#C7D2DF</color>
+
+    <color name="strokeLight">#EFEFEF</color>
+    <color name="strokeDark">#314057</color>
+    <color name="tintLight">#8E8E8E</color>
+    <color name="tintDark">#4B647C</color>
+
+    <color name="lightShabadBackground">#FAFAFA</color>
+    <color name="darkShabadBackground">#172029</color>
+
+    <color name="keyboardBtnBackgroundDark">#456A94</color>
+    <color name="mkeyboardBtnBackgroundNormal">#D6D3D3</color>
+
+    <color name="shabadArthColorLight">#474747</color>
+    <color name="shabadArthColorDark">#a6b8cb</color>
+
+    <color name="doneButtonColorLight">#DBDBDB</color>
+    <color name="doneButtonColorDark">#283549</color>
+
+    <color name="searchBackgroundLight">#F8E4E3</color>
+    <color name="searchBackgroundDark">#1E2C42</color>
+
+    <color name="splashDay">#C02F1D</color>
+    <color name="splashNight">#1D2733</color>
+
+    <color name="redProgressTint">#B71C1C</color>
+    <color name="redProgressBackgroundTint">#EF5350</color>
+    <color name="redColorControlActivated">#D32F2F</color>
+
+    <color name="greenProgressTint">#388E3C</color>
+    <color name="greenProgressBackgroundTint">#66BB6A</color>
+    <color name="greenColorControlActivated">#4CAF50</color>
+
+    <color name="blueProgressTint">#0288D1</color>
+    <color name="blueProgressBackgroundTint">#29B6F6</color>
+    <color name="blueColorControlActivated">#03A9F4</color>
+
+</resources>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpActivity"
+    android:background="?mcolorPrimary"
+    android:fitsSystemWindows="true">
+
+    <com.google.android.material.appbar.AppBarLayout android:minHeight="0dp" android:minWidth="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/archiveToolBar"
+        app:elevation="0dp"
+        android:animateLayoutChanges="true">
+        <androidx.appcompat.widget.Toolbar android:minHeight="0dp" android:minWidth="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:background="?mcolorPrimary">
+
+            <LinearLayout android:minWidth="0dp" android:minHeight="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="8dp">
+                <TextView android:minHeight="0dp" android:minWidth="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Granth Sahib"
+                    android:fontFamily="@font/signpainterhousescript"
+                    android:textSize="22dp"
+                    android:textColor="?mtextColor"
+                    android:layout_marginTop="8dp" />
+                <RelativeLayout android:minWidth="0dp" android:minHeight="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
+                    <RelativeLayout android:minHeight="0dp" android:minWidth="0dp"
+                        android:id="@+id/archiveBarView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:elevation="0dp"
+                        android:background="?mcolorPrimary"
+                        android:animateLayoutChanges="true"
+                        android:layout_marginRight="8dp">
+                        <ImageButton android:minHeight="28dp" android:minWidth="28dp"
+                            android:id="@+id/helpBackBtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_arrow_back_black_24dp"
+                            android:background="@null"
+                            android:tint="@color/redforeandblackonpress"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:scaleY="0.75"
+                            android:scaleX="0.75"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginRight="8dp" />
+                        <RelativeLayout android:minHeight="0dp" android:minWidth="0dp"
+                            android:id="@+id/helpViewArea"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toLeftOf="@+id/infoBtn"
+                            android:layout_toRightOf="@id/helpBackBtn"
+                            android:clickable="true"
+                            android:layout_alignParentTop="true">
+                            <TextView android:minHeight="0dp" android:minWidth="0dp"
+                                android:id="@+id/helpViewHeading"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="Help Center"
+                                android:fontFamily="@font/robotomedium"
+                                android:textColor="?mtextColor"
+                                android:textSize="19dp"
+                                android:layout_alignParentTop="true"/>
+                            <TextView android:minHeight="0dp" android:minWidth="0dp"
+                                android:id="@+id/usageGuideExtras"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Usage Guide"
+                                android:fontFamily="@font/robotomedium"
+                                android:textColor="?mcolorAccent"
+                                android:textSize="14dp"
+                                android:layout_below="@id/helpViewHeading"
+                                android:gravity="center"/>
+                        </RelativeLayout>
+                        <ImageButton android:minHeight="36dp" android:minWidth="36dp"
+                            android:id="@+id/infoBtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_info_black_24dp"
+                            android:background="@null"
+                            android:tint="@color/redforeandblackonpress"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:scaleY="0.75"
+                            android:scaleX="0.75"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="8dp"/>
+
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <WebView
+                android:id="@+id/helpWebView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </WebView>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:id="@+id/creditsView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:background="?mcolorPrimary">
+        <WebView
+            android:id="@+id/creditsWebView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/creditBtns"
+            android:scrollbars="none">
+        </WebView>
+        <LinearLayout
+            android:id="@+id/creditBtns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="4dp"
+            android:layout_marginBottom="8dp">
+            <Button android:minWidth="0dp" android:minHeight="0dp"
+                android:id="@+id/privacyPolicyBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Privacy Policy"
+                android:textAllCaps="false"
+                android:textSize="16dp"
+                android:textColor="@color/blackforeredonpress"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_margin="4dp"
+                android:padding="4dp"
+                android:background="@null"/>
+            <Button android:minWidth="0dp" android:minHeight="0dp"
+                android:id="@+id/closeCreditsBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Close"
+                android:textAllCaps="false"
+                android:textSize="16dp"
+                android:textColor="@color/redforeandblackonpress"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_margin="4dp"
+                android:padding="4dp"
+                android:background="@null"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/privacyPolicyView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:background="?mcolorPrimary">
+        <WebView
+            android:id="@+id/privacyPolicyWebView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+        </WebView>
+        <ImageButton
+            android:id="@+id/closePrivacyViewBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_close_black_24dp"
+            android:background="@drawable/privacypolicyclosebtnbackground"
+            android:tint="@color/redforeandblackonpress"
+            android:layout_alignParentTop="true"
+            android:layout_margin="16dp"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

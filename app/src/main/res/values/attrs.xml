@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="mcolorPrimary" format="reference"/>
+    <attr name="mcolorPrimaryDark" format="reference"/>
+    <attr name="mcolorAccent" format="reference"/>
+    <attr name="mcolorAccentDark" format="reference"/>
+    <attr name="mkeyboardText" format="reference"/>
+    <attr name="mkeyboardTextDark" format="reference"/>
+    <attr name="mtextColor" format="reference"/>
+    <attr name="mbuttonForegroundUnselected" format="reference"/>
+    <attr name="mbuttonForegroundSelected" format="reference"/>
+    <attr name="mbuttonBackgroundUnselected" format="reference"/>
+    <attr name="mbuttonBackgroundSelected" format="reference"/>
+    <attr name="mchoiceButtonTextColor" format="reference"/>
+    <attr name="msearchBoxStroke" format="reference"/>
+
+    <attr name="mtintColor" format="reference"/>
+
+    <attr name="mshabadBackground" format="reference"/>
+    <attr name="mkeyboardBtnBackgroundHighlighted" format="reference"/>
+    <attr name="mkeyboardBtnBackgroundNormal" format="reference"/>
+
+    <attr name="mshabadArthTextColor" format="reference"/>
+    <attr name="mdoneButtonColor" format="reference"/>
+
+    <attr name="msearchedShabadBackgroundColor" format="reference"/>
+
+    <attr name="msplashScreenColor" format="reference"/>
+
+</resources>

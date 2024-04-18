@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/baniHeadingLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp">
+            <TextView
+                android:id="@+id/baniNumber"
+                android:padding="4dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.15"
+                android:text="31"
+                android:textSize="22dp"
+                android:gravity="center"
+                android:fontFamily="@font/ralewaybold"
+                android:textColor="?mchoiceButtonTextColor"
+                android:background="@drawable/sundargutkabanilistnumberbackground"/>
+            <LinearLayout
+                android:padding="4dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.85"
+                android:orientation="vertical"
+                android:background="@drawable/sundargutkabanilistnamebackground">
+                <TextView
+                    android:id="@+id/baniNameGurmukhi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="jpujI swihb"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:gravity="left"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/gurbaniakharheavy"
+                    android:textColor="@color/sundargutkabaninameblacktowhite" />
+                <TextView
+                    android:id="@+id/baniNameEnglish"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Japji Sahib"
+                    android:textSize="16dp"
+                    android:gravity="left"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="2dp"
+                    android:fontFamily="@font/robotoregular"
+                    android:textColor="@color/sundargutkabaninameredtowhite" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/lastReadToken"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/baniHeadingLinearLayout"
+            android:layout_alignBottom="@id/baniHeadingLinearLayout"
+            android:text="Last"
+            android:textSize="13dp"
+            android:textColor="?mchoiceButtonTextColor"
+            android:fontFamily="@font/ralewaybold"
+            android:background="@drawable/sundargutkalastreadbackground"
+            android:padding="4dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+</RelativeLayout>
