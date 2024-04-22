@@ -32,17 +32,18 @@
             android:textColor="@color/white"
             android:textSize="32dp"
             android:textStyle="bold" />
+
         <TextView
             android:id="@+id/appSubTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/appTitle"
-            android:text="randoms studios"
-            android:textColor="@color/white"
-            android:textSize="16dp"
-            android:gravity="center_horizontal"
             android:breakStrategy="simple"
             android:fontFamily="@font/ralewaymedium"
-            android:textStyle="bold"/>
+            android:gravity="center_horizontal"
+            android:text="randomstudios"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold" />
     </RelativeLayout>
 </RelativeLayout>

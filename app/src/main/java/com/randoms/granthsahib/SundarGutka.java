@@ -141,7 +141,6 @@ public class SundarGutka extends AppCompatActivity implements Serializable {
             ois = new ObjectInputStream(inputStream);
             JumpToLabelsArrayList = (ArrayList<ArrayList<String>>) ois.readObject();
             inputStream.close();
-
         } catch (FileNotFoundException e) {
             e.printStackTrace();
             Toast.makeText(SundarGutka.this, "Error Occurred, Try Again Later", Toast.LENGTH_LONG).show();
@@ -156,13 +155,25 @@ public class SundarGutka extends AppCompatActivity implements Serializable {
             finish();
         }
 
-        BaniNames = new String[]{"jpujI swihb", "jwpu swihb", "qÍpRswid sÍXy", "cOpeI swihb", "AnMdu swihb", "rhrwis swihb", "r`iKAw Sbd", "kIrqn soihlw", "Sbd hjwry", "bwrh mwhw mWJ",
-                "Sbd hjwry pw 10", "sÍXy dInn", "AwrqI", "Ardws", "suKmnI swihb", "Awsw dI vwr", "dKxI EAMkwr", "isD gosit", "bwvn AKrI", "jYqsrI dI vwr",
-                "rwmklI kI vwr", "bsMq kI vwr", "bwrh mwhw quKwrI", "lwvW", "slok mhlw 9", "kucjI", "sucjI", "guxvMqI", "rwgmwlw", "Akwl ausqq cOpeI", "cMfI dI vwr"};
+        BaniNames = new String[]{"jpujI swihb", "Sbd hzwry", "jwpu swihb", "Sbd hzwry pwiqSwhI 10", "qÍ pRswid sv`Xy (sRwvg su`D)", "qÍ pRswid sv`Xy (dInn kI)", "Akwl ausqq cOpeI", "bynqI cOpeI swihb", "Anµdu swihb", "lwvW",
+                "AQ cMfIcirqR", "cMfI dI vwr", "kucjI", "sucjI", "guxvMqI", "Punhy mhlw 5", "cauboly", "SsqR nwm mwlw", "rhrwis swihb", "AwrqI", "soihlw swihb", "Ardws", "sRI BgauqI AsqoqR (pMQ pRkwS)", "sRI BgauqI AsqoqR (sRI hzUr swihb)",
+                "bwrh mwhw mWJ", "bwrh mwhw svYXw", "Akwl ausqq", "slok mhlw 9", "suKmnI swihb", "suKmnw swihb", "bwvn AKrI", "isD gosit", "dKxI EAMkwru", "duK BMjnI swihb", "rwg mwlw", "bwvn AKrI kbIr jIau kI", "GoVIAw", "krhly", "ibrhVy",
+                "ptI ilKI", "ptI mhlw 3", "mhlw 5 ruqI", "rwmklI sdu", "iQqMØI kbIr jI kMØI", "iQqI mhlw 1", "iQqI mhlw 5", "gauVI vwr kbIr jIau ky", "iblwvlu mhlw 3 vwr sq", "vxjwrw", "augRdMqI", "rwgu isrIrwgu (kbIr jIau kw)", "rwgu gauVI",
+                "rwgu Awsw", "rwgu gUjrI", "rwgu soriT", "rwgu DnwsrI", "rwgu jYqsrI", "rwgu tofI (bwxI BgqW kI)", "rwgu iqlMg (bwxI Bgqw kI kbIr jI)", "rwgu sUhI", "rwgu iblwvlu", "rwgu goNf", "rwgu rwmklI (sdu)", "rwgu mwlI gauVw", "rwgu mwrU",
+                "rwgu kydwrw", "rwgu BYrau", "rwgu bsMqu", "rwgu swrMg", "rwgu mlwr", "rwgu kwnVw", "rwgu pRBwqI", "slok Bgq kbIr jIau ky", "slok syK PrId ky", "svXy sRI muKbwk´ mhlw 5 - 1", "svXy sRI muKbwk´ mhlw 5 - 2", "sveIey mhly pihly ky",
+                "sveIey mhly dUjy ky", "sveIey mhly qIjy ky", "sveIey mhly cauQy ky", "sveIey mhly pMjvy ky", "isrIrwg kI vwr mhlw 4", "vwr mwJ kI", "gauVI kI vwr mhlw 4", "gauVI kI vwr mhlw 5", "Awsw dI vwr", "gUjrI kI vwr mhlw 3", "rwgu gUjrI vwr mhlw 5",
+                "ibhwgVy kI vwr mhlw 4", "vfhMs kI vwr mhlw 4", "rwgu soriT vwr mhly 4 kI", "jYqsrI kI vwr", "vwr sUhI kI", "iblwvlu kI vwr mhlw 4", "rwmklI kI vwr mhlw 3", "rwmklI kI vwr mhlw 5", "rwmklI kI vwr (rwie blvMif qQw sqY)", "mwrU vwr mhlw 3",
+                "mwrU vwr mhlw 5 fKxy", "bsMq kI vwr", "swrMg kI vwr mhlw 4", "vwr mlwr kI mhlw 1", "kwnVy kI vwr mhlw 4"};
 
-        BaniNamesEnglish = new String[]{"Japji Sahib", "Jaap Sahib", "Tav Prasad Sawaiye", "Chaupai Sahib", "Anand Sahib", "Rehraas Sahib", "Rakhya Shabad", "Kirtan Sohila", "Shabad Hazaare", "Barah Maha Maaj",
-                "Shabad Hazaare Paatshahi 10", "Swaiye Deenan", "Aarti", "Ardaas", "Sukhmani Sahib", "Asa Di Vaar", "Dakhnee Oankaar", "Sidh Gosat", "Baavan Akhree", "Jaitsari Di Vaar",
-                "Ramkali Ki Vaar", "Basant Ki Vaar", "Barah Maha Tukhari", "Laavan", "Salok Mehal 9", "Kuchaji", "Suchaji", "Gunvanti", "Raag Maala", "Akaal Ustat Chaupai", "Chandi Di Vaar"};
+        BaniNamesEnglish = new String[]{"Japji Sahib", "Shabad Hazaarey", "Jaap Sahib", "Shabad Hazaarey Paatshaahi 10", "Tav Prasad Savaiye (Srawag Suddh)", "Tav Prasad Savaiye (Deenan Ki)", "Akaal Ustat Chaupai", "Beynti Chaupai",
+                "Anand Sahib", "Laavan", "Ath Chandichritar", "Chandi Di Vaar", "Kuchji", "Suchji", "Gunnvanti", "Funhey Pehala 5", "Chaubole", "Shastar Naam Maala", "Rehraas Sahib", "Aarti", "Sohila Sahib", "Ardaas", "Sri Bhagauti Astotar (Panth Parkash)",
+                "Sri Bhagauti Astotar (Sri Hazoor Sahib)", "Baarah Maaha Maanjh", "Baarah Maaha Savaiya", "Akaal Ustat", "Salok Mehala 9", "Sukhmani Sahib", "Sukhmana Sahib", "Baavan Akhree", "Siddh Gosat", "Dakhnee Oankaar", "Dukh Bhanjani Sahib", "Raag Maala",
+                "Baavan Akharee Kabir Jio Ki", "Ghodiaan", "Karhaley", "Birharhey", "Patee Likhee", "Patee Mehala 3", "Mehala 5 Rutee", "Raamkali Saddh", "Thiteen Kabir Ji Keen", "Thitee Mehala 1", "Thitee Mehala 5", "Gaudi Vaar Kabir Jio Ke", "Bilaawal Mehala 3 Vaar Sat",
+                "Vanjaara", "Ugardanti", "Raag Sireeraag (Kabir Jio Kaa)", "Raag Gaudi", "Raag Aasa", "Raag Goojri", "Raag Sorath", "Raag Dhanaasari", "Raag Jaitsari", "Raag Todhi (Baani Bhagtaan Ki)", "Raag Tilang (Baani Bhagtaa Ki Kabir Ji)", "Raag Soohi", "Raag Bilaawal",
+                "Raag Gond", "Raag Raamkali (Saddh)", "Raag Maali Gauda", "Raag Maaroo", "Raag Kedaara", "Raag Bhairao", "Raag Basant", "Raag Saarang", "Raag Malaar", "Raag Kaanadaa", "Raag Prabhaati", "Salok Bhagat Kabir Jio Ke", "Salok Seikh Fareed Ke", "Savaiye Sri Mukhbaak Mehala 5-1",
+                "Savaiye Sri Mukhbaak Mehala 5-2", "Savaiye Mehale Pehley Ke", "Savaiye Mehale Doojey Ke", "Savaiye Mehale Teejey Ke", "Savaiye Mehale Chauthey Ke", "Savaiye Mehale Panjvey Ke", "SireeraagKi Vaar Mehala 4", "Vaar Maajh Ki", "Gaudi Ki Vaar Mehala 4", "Gaudi Ki Vaar Mehala 5",
+                "Aasa Di Vaar", "Goojri Ki Vaar Mehala 3", "Raag Goojri Vaar Mehala 5", "Bihaagrhey Ki Vaar Mehala 4", "Vadhans Ki Vaar Mehala 4", "Raag Sorath Vaar Mehale 4 Ki", "Jaitsari Ki Vaar", "Vaar Soohi Ki", "Bilaawal Ki Vaar Mehala 4", "Raamkali Ki Vaar Mehala 3", "Raamkali Ki Vaar Mehala 5",
+                "Raamkali Ki Vaar (Rai Balwand Tatha Satai)", "Maaroo Vaar Mehala 3", "Maaroo Vaar Mehala 5 Dakhney", "Basant Ki Vaar", "Saarang Ki Vaar Mehala 4", "Vaar Malaar Ki Mehala 1", "Kaanadey Ki Vaar Mehala 4"};
 
         quicklistMode = mPreferences.getBoolean(getString(R.string.quicklistMode), false);
         Gson gson = new Gson();
@@ -200,7 +211,7 @@ public class SundarGutka extends AppCompatActivity implements Serializable {
 
         if(quicklistMode){
             quickListBtn.setSelected(true);
-            if(quickListArray.size()!=0){
+            if(!quickListArray.isEmpty()){
                 quickBaniListRV.setAdapter(gurbaniQuickListAdapter);
                 quickBaniListRV.setVisibility(View.VISIBLE);
                 quickListEmptyMessage.setVisibility(View.GONE);
